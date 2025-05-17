@@ -4,55 +4,80 @@ export default function Projects() {
     const projects = [
         {
             id: 1,
-            title: "Project 1",
-            description: "Description of Project 1",
+            title: "Reputation Management System",
+            description: "A system to manage the reputation of businesses based on their reviews, ratings and Google Rankings.",
             imageUrl: "/project1.jpg",
-            technologies: ["React", "Node.js", "MongoDB"],
-            liveUrl: "https://project1.com",
-            githubUrl: "https://github.com/username/project1"
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API", "Google Places API", "Google Search API"],
+            liveUrl: "https://skyrocketreviews.co.uk/",
+            githubUrl: "https://github.com/luiskcc/reputation-management-system"
         },
         {
             id: 2,
-            title: "Project 2",
-            description: "Description of Project 2",
-            imageUrl: "/project2.jpg",
-            technologies: ["Next.js", "Tailwind CSS", "Firebase"],
-            liveUrl: "https://project2.com",
-            githubUrl: "https://github.com/username/project2"
+            title: "Airbnb Host Dashboard App",
+            description: "A dashboard app for Airbnb hosts to manage their listings, bookings and reviews.",
+            imageUrl: "/project1.jpg",
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API", "Google Places API", "Google Search API"],
+            liveUrl: "https://airbnb-host-dashboard.herokuapp.com/",
+            githubUrl: "https://github.com/luiskcc/reputation-management-system"
         },
         {
             id: 3,
-            title: "Project 3",
-            description: "Description of Project 3",
-            imageUrl: "/project3.jpg",
-            technologies: ["Ruby on Rails", "PostgreSQL", "AWS"],
-            liveUrl: "https://project3.com",
-            githubUrl: "https://github.com/username/project3"
+            title: "Meal Master Chatbot",
+            description: "A chatbot that uses AI multimodal analysis to scan images and calculate food macronutrients and calories.",
+            imageUrl: "/project2.jpg",
+            technologies: ["Python", "OpenAI API", "Streamlit", "Heroku", "Telegram API"],
+            liveUrl: "https://mealmaster.co.uk/",
+            githubUrl: "https://github.com/username/project2"
         },
         {
             id: 4,
-            title: "Project 3",
-            description: "Description of Project 3",
-            imageUrl: "/project3.jpg",
-            technologies: ["Ruby on Rails", "PostgreSQL", "AWS"],
-            liveUrl: "https://project3.com",
+            title: "Autoresponse System",
+            description: "A software that helps Google Business Profile owners automate their responses in the most efficient way.",
+            imageUrl: "/autoresponse-app.png",
+            technologies: ["Python", "Pipedream", "Google Business Profile API", "Groq API", "Google Maps API", "Google Places API"],
             githubUrl: "https://github.com/username/project3"
         },
         {
             id: 5,
-            title: "Project 3",
-            description: "Description of Project 3",
+            title: "Ad Boat Rental Wordpress Website",
+            description: "A website for a boat rental company that allows users to rent boats and manage their bookings.",
             imageUrl: "/project3.jpg",
-            technologies: ["Ruby on Rails", "PostgreSQL", "AWS"],
-            liveUrl: "https://project3.com",
+            technologies: ["Wordpress", "Elementor", "Google Maps API", "Google Ads", "Google Tags", "Ionos Server", "SMTP", "Google Analytics"],
             githubUrl: "https://github.com/username/project3"
         },
         {
             id: 6,
-            title: "Project 3",
-            description: "Description of Project 3",
+            title: "Multiple Websites",
+            description: "Multiple sites",
             imageUrl: "/project3.jpg",
-            technologies: ["Ruby on Rails", "PostgreSQL", "AWS"],
+            technologies: ["Next.js", "Tailwind CSS", "Shadcn UI", "Vercel", "Contentful", "Stripe API", "PayPal", "Google Analytics"],
+            liveUrl: "https://project3.com",
+            githubUrl: "https://github.com/username/project3"
+        },
+        {
+            id: 7,
+            title: "International Phone Call System",
+            description: "In browser app that allows users to make International calls, log calls and manage their call history and attributes.",
+            imageUrl: "/project3.jpg",
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "Twilio API"],
+            liveUrl: "https://project3.com",
+            githubUrl: "https://github.com/username/project3"
+        },
+        {
+            id: 8,
+            title: "Predrinks app",
+            description: "A native IOS and Android geosocial app for students that allows them to share their location with friends and family and create events.",
+            imageUrl: "/project3.jpg",
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "Ionic", "Angular.js", "Google Maps API"],
+            liveUrl: "https://project3.com",
+            githubUrl: "https://github.com/username/project3"
+        },
+        {
+            id: 9,
+            title: "QR code event management system",
+            description: "A system to manage QR code tickets for events and track attendance.",
+            imageUrl: "/project3.jpg",
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "QR Code API", "Stripe API", "PayPal", "Google Analytics"],
             liveUrl: "https://project3.com",
             githubUrl: "https://github.com/username/project3"
         }
