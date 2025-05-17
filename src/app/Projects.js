@@ -6,10 +6,10 @@ export default function Projects() {
             id: 1,
             title: "Reputation Management System",
             description: "A system to manage the reputation of businesses based on their reviews, ratings and Google Rankings.",
-            imageUrl: "/project1.jpg",
+            imageUrl: "/reputation.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API", "Google Places API", "Google Search API"],
             liveUrl: "https://skyrocketreviews.co.uk/",
-            githubUrl: "https://github.com/luiskcc/reputation-management-system"
+            githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
         },
         {
             id: 2,
@@ -17,17 +17,17 @@ export default function Projects() {
             description: "A dashboard app for Airbnb hosts to manage their listings, bookings and reviews.",
             imageUrl: "/project1.jpg",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API", "Google Places API", "Google Search API"],
-            liveUrl: "https://airbnb-host-dashboard.herokuapp.com/",
-            githubUrl: "https://github.com/luiskcc/reputation-management-system"
+            liveUrl: "https://skyrocketreviews.co.uk/airbnb",
+            githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
         },
         {
             id: 3,
             title: "Meal Master Chatbot",
             description: "A chatbot that uses AI multimodal analysis to scan images and calculate food macronutrients and calories.",
-            imageUrl: "/project2.jpg",
+            imageUrl: "/mealmaster.png",
             technologies: ["Python", "OpenAI API", "Streamlit", "Heroku", "Telegram API"],
             liveUrl: "https://mealmaster.co.uk/",
-            githubUrl: "https://github.com/username/project2"
+            githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
         },
         {
             id: 4,
@@ -41,24 +41,25 @@ export default function Projects() {
             id: 5,
             title: "Ad Boat Rental Wordpress Website",
             description: "A website for a boat rental company that allows users to rent boats and manage their bookings.",
-            imageUrl: "/project3.jpg",
+            imageUrl: "/adboatrental.png",
             technologies: ["Wordpress", "Elementor", "Google Maps API", "Google Ads", "Google Tags", "Ionos Server", "SMTP", "Google Analytics"],
+            liveUrl: "https://adboatrental.com/",
             githubUrl: "https://github.com/username/project3"
         },
         {
             id: 6,
             title: "Multiple Websites",
             description: "Multiple sites",
-            imageUrl: "/project3.jpg",
+            imageUrl: "/luiskerch.png",
             technologies: ["Next.js", "Tailwind CSS", "Shadcn UI", "Vercel", "Contentful", "Stripe API", "PayPal", "Google Analytics"],
-            liveUrl: "https://project3.com",
+            liveUrl: "https://luiskerch.com",
             githubUrl: "https://github.com/username/project3"
         },
         {
             id: 7,
             title: "International Phone Call System",
             description: "In browser app that allows users to make International calls, log calls and manage their call history and attributes.",
-            imageUrl: "/project3.jpg",
+            imageUrl: "/phone-call.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "Twilio API"],
             liveUrl: "https://project3.com",
             githubUrl: "https://github.com/username/project3"
@@ -67,7 +68,7 @@ export default function Projects() {
             id: 8,
             title: "Predrinks app",
             description: "A native IOS and Android geosocial app for students that allows them to share their location with friends and family and create events.",
-            imageUrl: "/project3.jpg",
+            imageUrl: "/predrinks.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "Ionic", "Angular.js", "Google Maps API"],
             liveUrl: "https://project3.com",
             githubUrl: "https://github.com/username/project3"
@@ -76,7 +77,7 @@ export default function Projects() {
             id: 9,
             title: "QR code event management system",
             description: "A system to manage QR code tickets for events and track attendance.",
-            imageUrl: "/project3.jpg",
+            imageUrl: "/qr-code.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "QR Code API", "Stripe API", "PayPal", "Google Analytics"],
             liveUrl: "https://project3.com",
             githubUrl: "https://github.com/username/project3"
