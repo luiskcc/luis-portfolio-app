@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import StarBackground from "./StarBackground";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +24,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-black text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} relative min-h-screen bg-[#0d1117] text-white`}
       >
-        {children}
+        <div className="absolute inset-0 overflow-hidden">
+          <StarBackground />
+        </div>
+        <div className="relative z-10">
+          {children}
+        </div>
       </body>
     </html>
   );

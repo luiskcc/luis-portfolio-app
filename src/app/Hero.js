@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="py-20 text-center relative overflow-hidden" data-controller="hero-animation">
     {/* Background effects */}
         <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 bg-[#238636] opacity-5 filter blur-3xl"></div>
+            <div className="absolute inset-0 bg-[#238636] opacity-2 filter blur-3xl"></div>
             <div className="absolute bottom-0 left-0 right-0 top-1/2 bg-gradient-to-t from-[#0d1117] to-transparent"></div>
         </div>
 
