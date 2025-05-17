@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return(
-    <section className="py-20 text-center relative overflow-hidden" data-controller="hero-animation">
+    <section className="py-20 px-4 lg:px-20 text-center relative overflow-hidden" data-controller="hero-animation">
     {/* Background effects */}
         <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-[#238636] opacity-2 filter blur-3xl"></div>

@@ -7,7 +7,7 @@ export default function Projects() {
             title: "Reputation Management System",
             description: "A system to manage the reputation of businesses based on their reviews, ratings and Google Rankings.",
             imageUrl: "/reputation.png",
-            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API", "Google Places API", "Google Search API"],
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API"],
             liveUrl: "https://skyrocketreviews.co.uk/",
             githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
         },
