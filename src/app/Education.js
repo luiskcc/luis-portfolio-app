@@ -17,8 +17,8 @@ export default function Education() {
     ];
 
     return(
-        <section id="education" className="py-10" data-controller="education-animation">
-            <h2 className="text-3xl font-bold mb-24 text-center text-[#c9d1d9] translate-y-12"
+        <section id="education" className="py-4 px-4 lg:py-10 lg:px-20" data-controller="education-animation">
+            <h2 className="text-3xl font-bold mb-16 text-center text-[#c9d1d9] translate-y-12"
                 data-education-animation-target="title">
                 Education
             </h2>

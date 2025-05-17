@@ -36,8 +36,8 @@ export default function Experience() {
     ];
 
     return(
-        <section id="experience" className="pt-30 pb-10" data-controller="experience-animation">
-            <h2 className="text-3xl font-bold mb-16 text-center text-[#c9d1d9] transform transition-all duration-700 ease-out"
+        <section id="experience" className="py-4 px-4 lg:py-10 lg:px-20" data-controller="experience-animation">
+            <h2 className="text-3xl font-bold mb-8 text-center text-[#c9d1d9] transform transition-all duration-700 ease-out"
                 data-experience-animation-target="title">
                 Experience
             </h2>
