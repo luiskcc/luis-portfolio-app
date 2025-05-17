@@ -7,7 +7,7 @@ export default function Projects() {
             title: "Reputation Management System",
             description: "A system to manage the reputation of businesses based on their reviews, ratings and Google Rankings.",
             imageUrl: "/reputation.png",
-            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API"],
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API"],
             liveUrl: "https://skyrocketreviews.co.uk/",
             githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
         },
@@ -16,7 +16,7 @@ export default function Projects() {
             title: "Airbnb Host Dashboard App",
             description: "A dashboard app for Airbnb hosts to manage their listings, bookings and reviews.",
             imageUrl: "/airbnb-superhost.png",
-            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API"],
+            technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Airbnb API"],
             liveUrl: "https://skyrocketreviews.co.uk/airbnb",
             githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
         },
@@ -34,7 +34,7 @@ export default function Projects() {
             title: "Autoresponse System",
             description: "A software that helps Google Business Profile owners automate their responses in the most efficient way.",
             imageUrl: "/autoresponse-app.png",
-            technologies: ["Python", "Pipedream", "Google Business Profile API", "Groq API", "Google Maps API", "Google Places API"],
+            technologies: ["Python", "Pipedream", "Google Business Profile API", "Groq API"],
             githubUrl: "https://github.com/username/project3"
         },
         {
