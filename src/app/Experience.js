@@ -3,23 +3,34 @@ export default function Experience() {
     const experiences = [
         {
             id: 1,
-            title: "Full Stack Developer",
-            company: "Tech Solutions Inc",
-            period: "2021 - Present",
+            title: "CTO & Cofounder",
+            company: "SkyRocket",
+            location: "Remote",
+            period: "2024 - Present",
             description: "Developed and maintained web applications using Ruby on Rails and React. Implemented RESTful APIs and improved application performance."
         },
         {
             id: 2,
-            title: "Frontend Developer",
-            company: "Digital Innovations",
-            period: "2019 - 2021",
+            title: "Full Stack Engineer",
+            company: "codecandy.io",
+            location: "Madrid, Spain",
+            period: "2022 - 2024",
             description: "Created responsive user interfaces using React and Next.js. Collaborated with UX designers to implement visually appealing web applications."
         },
         {
             id: 3,
-            title: "Junior Web Developer",
-            company: "WebTech Studio",
-            period: "2017 - 2019",
+            title: "Software Sales Representative",
+            company: "Bark.com",
+            location: "London, UK",
+            period: "2023",
+            description: "Assisted in developing and deploying web applications. Gained experience in HTML, CSS, JavaScript, and Ruby on Rails."
+        },
+        {
+            id: 4,
+            title: "Cofounder & CEO",
+            company: "Pre's Social",
+            location: "Kent, UK",
+            period: "2021 - 2022",
             description: "Assisted in developing and deploying web applications. Gained experience in HTML, CSS, JavaScript, and Ruby on Rails."
         }
     ];
@@ -40,7 +51,7 @@ export default function Experience() {
                         <div className="bg-[#161b22] border border-[#30363d] hover:border-[#58a6ff] transition-colors duration-300 h-full flex flex-col justify-center rounded-lg p-6">
                             <div className="mb-4">
                                 <h3 className="text-xl font-semibold text-[#c9d1d9]">{exp.title}</h3>
-                                <p className="text-[#8b949e]">{exp.company} | {exp.period}</p>
+                                <p className="text-[#8b949e]">{exp.company} | {exp.location} | {exp.period}</p>
                             </div>
                             <div className="flex-grow">
                                 <p className="text-[#c9d1d9]">{exp.description}</p>

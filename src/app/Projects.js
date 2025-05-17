@@ -83,7 +83,7 @@ export default function Projects() {
     ];
 
     return(
-        <section id="projects" className="py-10 px-20" data-controller="projects-animation ">
+        <section id="projects" className="py-10 px-4 lg:px-20" data-controller="projects-animation ">
             <h2 className="text-3xl font-bold mb-20 text-center text-[#c9d1d9] translate-y-12"
                 data-projects-animation-target="title">
                 Projects

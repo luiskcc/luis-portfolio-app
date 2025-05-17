@@ -2,25 +2,18 @@ export default function Education() {
     const educations = [
         {
             id: 1,
-            degree: "Bachelor of Science in Computer Science",
-            school: "University of Technology",
-            period: "2013 - 2017",
+            degree: "Postgraduate Certificate in Software Engineering",
+            school: "Ravensbourne University London",
+            period: "2021 - 2022",
             description: "Focused on software development, database management, and web technologies. Graduated with honors."
         },
         {
             id: 2,
-            degree: "Full Stack Web Development Bootcamp",
-            school: "Tech Academy",
-            period: "2018",
-            description: "Intensive program covering modern web development technologies including JavaScript, React, and Ruby on Rails."
+            degree: "BSc (Hons) International Business",
+            school: "University of Kent",
+            period: "2018 - 2021",
+            description: "Focused on international business, marketing, and management. Graduated with honors."
         },
-        {
-            id: 3,
-            degree: "Master's in Software Engineering",
-            school: "Advanced Institute of Technology",
-            period: "2019 - 2021",
-            description: "Specialized in software architecture, advanced algorithms, and project management methodologies."
-        }
     ];
 
     return(

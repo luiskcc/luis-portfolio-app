@@ -9,7 +9,7 @@ export default function Header() {
                 Luis Kerch
                 </Link>
                 <nav className="space-x-4">
-                    <div className="flex flex-col justify-center items-center lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
+                    <div className="hidden lg:flex flex-col justify-center items-center lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
                             <Link href="#projects" className="text-lg hover:text-blue-300 transition-colors duration-300 text-foreground">
                             Projects
                             </Link>
