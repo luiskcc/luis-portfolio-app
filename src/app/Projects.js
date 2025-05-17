@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Projects() {
     const projects = [
         {
@@ -15,7 +13,7 @@ export default function Projects() {
             id: 2,
             title: "Airbnb Host Dashboard App",
             description: "A dashboard app for Airbnb hosts to manage their listings, bookings and reviews.",
-            imageUrl: "/project1.jpg",
+            imageUrl: "/airbnb-superhost.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Google Maps API", "Google Places API", "Google Search API", "Google Places API", "Google Search API"],
             liveUrl: "https://skyrocketreviews.co.uk/airbnb",
             githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
@@ -68,7 +66,7 @@ export default function Projects() {
             id: 8,
             title: "Predrinks app",
             description: "A native IOS and Android geosocial app for students that allows them to share their location with friends and family and create events.",
-            imageUrl: "/predrinks.png",
+            imageUrl: "/pres.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "Ionic", "Angular.js", "Google Maps API"],
             liveUrl: "https://project3.com",
             githubUrl: "https://github.com/username/project3"
@@ -77,7 +75,7 @@ export default function Projects() {
             id: 9,
             title: "QR code event management system",
             description: "A system to manage QR code tickets for events and track attendance.",
-            imageUrl: "/qr-code.png",
+            imageUrl: "/golfest-qr.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "QR Code API", "Stripe API", "PayPal", "Google Analytics"],
             liveUrl: "https://project3.com",
             githubUrl: "https://github.com/username/project3"
@@ -85,7 +83,7 @@ export default function Projects() {
     ];
 
     return(
-        <section id="projects" className="py-10" data-controller="projects-animation">
+        <section id="projects" className="py-10 px-20" data-controller="projects-animation">
             <h2 className="text-3xl font-bold mb-20 text-center text-[#c9d1d9] translate-y-12"
                 data-projects-animation-target="title">
                 Projects
