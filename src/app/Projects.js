@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Projects() {
     const projects = [
         {
@@ -94,9 +96,11 @@ export default function Projects() {
                     <div key={project.id} className="bg-[#161b22] border border-[#30363d] rounded-lg overflow-hidden group p-6 border border-[#30363d] hover:border-[#58a6ff] transition-all duration-700 ease-in-out">
                         <div className="relative overflow-hidden">
                             {project.imageUrl ? (
-                                <img 
+                                <Image 
                                     src={project.imageUrl} 
                                     alt={project.title}
+                                    width={500}
+                                    height={500}
                                     className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                                 />
                             ) : (

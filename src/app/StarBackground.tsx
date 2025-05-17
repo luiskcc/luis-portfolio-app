@@ -14,6 +14,14 @@ interface StarBackgroundProps {
   maxRadius?: number;
 }
 
+interface Star {
+  x: number;
+  y: number;
+  radius: number;
+  opacity: number;
+  twinkleSpeed: number | null;
+}
+
 export default function StarBackground({
   starDensity = 0.00015,
   allStarsTwinkle = true,
@@ -26,7 +34,7 @@ export default function StarBackground({
   maxRadius = 0.9
 }: StarBackgroundProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const starsRef = useRef<any[]>([]);
+  const starsRef = useRef<Star[]>([]);
   const animationFrameIdRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -34,10 +42,10 @@ export default function StarBackground({
     if (!canvas) return;
 
     const setupCanvas = () => {
-      const { width, height } = canvas.getBoundingClientRect();
-      canvas.width = width;
-      canvas.height = height;
-      generateStars(width, height);
+      // Set canvas to full window size
+      canvas.width = window.innerWidth;
+      canvas.height = document.documentElement.scrollHeight || document.body.scrollHeight;
+      generateStars(canvas.width, canvas.height);
     };
 
     const generateStars = (width: number, height: number) => {
@@ -88,17 +96,32 @@ export default function StarBackground({
       render();
     };
 
+    // Initial setup
     setupCanvas();
     startAnimation();
 
-    const resizeObserver = new ResizeObserver(() => {
-      setupCanvas();
-    });
-    
-    resizeObserver.observe(canvas);
+    // Update on resize
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = document.documentElement.scrollHeight || document.body.scrollHeight;
+      generateStars(canvas.width, canvas.height);
+    };
+
+    // Update on scroll to ensure we cover the whole page
+    const handleScrollEnd = () => {
+      const newHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+      if (canvas.height < newHeight) {
+        canvas.height = newHeight;
+        generateStars(canvas.width, canvas.height);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('scroll', handleScrollEnd);
 
     return () => {
-      resizeObserver.disconnect();
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleScrollEnd);
       if (animationFrameIdRef.current) {
         cancelAnimationFrame(animationFrameIdRef.current);
       }
@@ -118,7 +141,7 @@ export default function StarBackground({
   return (
     <canvas 
       ref={canvasRef}
-      className="absolute inset-0 w-full h-full z-0"
+      className="fixed inset-0 w-full h-full z-0 pointer-events-none"
     />
   );
 }
