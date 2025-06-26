@@ -2,36 +2,44 @@
 export default function Experience() {
     const experiences = [
         {
+            id: 0,
+            title: "Opensource Software Engineer",
+            company: "Ebb.cool",
+            location: "Salt Lake City, USA | Remote",
+            period: "2025 - Present",
+            description: "Developed and maintained the Ebb.cool desktop app using Rust, Supabase, AWS, React, Typescript, Tailwind CSS, Tauri, Postgresql, and SQLite. Also, I'm responsible for the customer support and the sales process."
+        },
+        {
             id: 1,
             title: "CTO & Cofounder",
             company: "SkyRocket",
             location: "Remote",
             period: "2024 - Present",
-            description: "Developed and maintained web applications using Ruby on Rails and React. Implemented RESTful APIs and improved application performance."
+            description: "Developed and maintained web applications using Ruby on Rails and Stimulus. Implemented RESTful APIs and improved application performance."
         },
         {
             id: 2,
-            title: "Full Stack Engineer",
+            title: "Ruby on Rails Full Stack Engineer",
             company: "codecandy.io",
             location: "Madrid, Spain",
             period: "2022 - 2024",
-            description: "Created responsive user interfaces using React and Next.js. Collaborated with UX designers to implement visually appealing web applications."
+            description: "Created responsive user interfaces using different stacks based on Ruby on Rails. Collaborated with UX designers to implement visually appealing web applications."
         },
         {
             id: 3,
-            title: "Software Sales Representative",
+            title: "Software Sales Representative and Customer Success",
             company: "Bark.com",
             location: "London, UK",
             period: "2023",
-            description: "Assisted in developing and deploying web applications. Gained experience in HTML, CSS, JavaScript, and Ruby on Rails."
+            description: "Assisted in the sales process and provided customer support to the clients for the Bark.com product."
         },
         {
             id: 4,
             title: "Cofounder & CEO",
             company: "Pre's Social",
-            location: "Kent, UK",
+            location: "Canterbury, UK",
             period: "2021 - 2022",
-            description: "Assisted in developing and deploying web applications. Gained experience in HTML, CSS, JavaScript, and Ruby on Rails."
+            description: "Developed product for a geosocial network for university students. Helped with all business development, marketing and the sales process."
         }
     ];
 

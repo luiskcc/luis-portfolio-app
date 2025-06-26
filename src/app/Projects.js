@@ -3,6 +3,15 @@ import Image from "next/image";
 export default function Projects() {
     const projects = [
         {
+            id: 0,
+            title: "Ebb.cool",
+            description: "An opensource MacOs desktop app to manage your productivity and set focus timers.",
+            imageUrl: "/ebb.png",
+            technologies: ["Rust", "Supabase", "AWS", "React", "Typescript", "Tailwind CSS", "Tauri", "Postgresql", "SQLite"],
+            liveUrl: "https://ebb.cool/",
+            githubUrl: "https://github.com/CodeClimbersIO/ebb-app"
+        },
+        {
             id: 1,
             title: "Reputation Management System",
             description: "A system to manage the reputation of businesses based on their reviews, ratings and Google Rankings.",
