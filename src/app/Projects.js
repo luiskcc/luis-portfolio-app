@@ -26,7 +26,7 @@ export default function Projects() {
             description: "A dashboard app for Airbnb hosts to manage their listings, bookings and reviews.",
             imageUrl: "/airbnb-superhost.png",
             technologies: ["Ruby on Rails", "PostgreSQL", "Heroku", "OpenAI", "Airbnb API"],
-            liveUrl: "https://skyrocketreviews.co.uk/airbnb",
+            liveUrl: "https://skyrocketreviews.co.uk/superhost",
             githubUrl: "https://github.com/luiskcc/reputation-app-mvp"
         },
         {
